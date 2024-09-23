@@ -1,0 +1,1 @@
+export const localFileStorage = { /* File Storage Config */ };

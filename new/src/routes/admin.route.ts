@@ -1,0 +1,1 @@
+export class AdminRoute { /* Admin Route Implementation */ }

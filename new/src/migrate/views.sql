@@ -1,1 +1,1 @@
--- Views migration file
+CREATE VIEW example_view AS SELECT * FROM example_table;
