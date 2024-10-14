@@ -34,6 +34,11 @@ let TasksService = class TasksService {
     deleteTask(id) {
         this.tasks = this.tasks.filter(task => task.id !== id);
     }
+    updateTaskStatus(id, status) {
+        const task = this.getTaskById(id);
+        task.status = status;
+        return task;
+    }
 };
 exports.TasksService = TasksService;
 exports.TasksService = TasksService = __decorate([
